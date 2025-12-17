@@ -1,0 +1,11 @@
+appId: com.wifimonitor.app
+productName: WiFi Monitor Electron
+directories:
+  output: dist
+files:
+  - out/**/*
+linux:
+  target:
+    - AppImage
+    - deb
+  category: Utility
